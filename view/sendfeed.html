@@ -1,0 +1,42 @@
+﻿<meta charset="utf-8">
+
+<head><link rel="shortcut icon" href="/pogoda1234567.ru/view/image/213.png" type="image/png">
+<script src='https://www.google.com/recaptcha/api.js'></script></head>
+<style>
+body
+{
+background:  url(/pogoda1234567.ru/view/image/feed.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100%;
+}
+</style>
+
+<title>Send feedbacks</title>
+<head> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+</head>
+<body>
+	<form method="POST" class="form-inline">
+	<p class="text-center"><font size="5" face="Comic sans MS"><b style="color: #000000"><strong >Send Feedbacks:</strong></b></font></p>
+<br>
+  <div class="form-group">
+<strong>Email: </strong>
+<input class="form-control" type="email" name="feedmail" autocomplete="of" placeholder="your email" name = "feedlogin" required>
+</div>
+<br><br>
+<div class="form-group">
+<strong>Name:</strong>
+<input class="form-control" type="text" name="feedname" autocomplete="of" placeholder="name" name="feedname" required><br><br>
+</div>
+<br>
+<p class="text-center"><font size="4" face="Comic sans MS"><b style="color: #000000">Feedback</b></font></p>
+<p class="text-center"><textarea  name="feedtext" autocomplete="of" placeholder="your feedback" cols="200" rows="20" name="feedtext" required></textarea></p>
+<br>
+<div class="g-recaptcha" data-sitekey="6LcLAn8UAAAAAPw88kPtICf0bbl66-tB6yxwLdy5" required></div>
+<p class="text-center"><button class="btn btn-primary" type="sumbit" name="feedsumbit">Send a feedback</button></p>
+</form>
+</body>
